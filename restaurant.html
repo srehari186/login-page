@@ -94,6 +94,13 @@
                 </center>
             </div>
         </div>
+        
+        <script>
+        if (!localStorage.getItem('visited')) {
+        localStorage.setItem('visited', 'true');
+        window.location.href = 'login page.html';
+        } 
+        </script>
         <style>
             *{
   margin: 0;
